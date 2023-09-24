@@ -8,7 +8,7 @@
     ],
     "routes": [
       {
-        "src": "/redirect",
+        "src": "/start",
         "dest": "/app.js"  
       }
     ]

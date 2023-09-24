@@ -9,7 +9,7 @@ const generateRandomString = (length) => {
 };
 
 // Define a route that redirects to the Auth0 authorization URL with random nonce and state values
-app.get('/redirect', (req, res) => {
+app.get('/start', (req, res) => {
   const nonce = generateRandomString(16); // Generate a 16-character random nonce
   const state = generateRandomString(16); // Generate a 16-character random state
 
